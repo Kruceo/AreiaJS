@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="http://banana.kruceo.com/slide.js"></script>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <script>hljs.highlightAll();</script>
+    <textarea id="con" cols="30" rows="10">
+<slider>
+    <slide>
+    1
+    </slide>
+    <slide>
+    2
+    </slide>
+</slider>
+    </textarea>
+    <textarea id="css" class="language-html" cols="30" rows="10">
+<style>
+slider
+{
+    background-color: blue;
+
+}
+</style>
+</textarea
+    >
+    <sandbox for="#css"></sandbox>
+    <sandbox for="#con" onChange="init()"></sandbox>
+  </body>
+</html>
